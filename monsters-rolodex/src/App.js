@@ -29,7 +29,7 @@ class App extends Component {
     console.log(CardList)
     return (
       <div className="App">
-        <CardList names={names}> </CardList>
+        <CardList names={this.state.names}> </CardList>
         
       </div>
     );

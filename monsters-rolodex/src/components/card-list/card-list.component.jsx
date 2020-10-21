@@ -1,13 +1,15 @@
-import React from 'react';
-import './card-list.styles.css'
+import React from "react";
+import { Card } from "../card/card.component";
+import "./card-list.styles.css";
 
-export const CardList = (props) => {    
-    console.log(props)
-    
-return <div className='card-list'>
-    {propes.names.map((person) => (
-          <h1 key={person.id}> {person.name}</h1>
-        ))}
-        
-</div>
-}
+export const CardList = (props) => {
+  console.log(props);
+
+  return (
+    <div className="card-list">
+      {props.names.map((person) => (
+        <Card key={person.id} person={person} />
+      ))}
+    </div>
+  );
+};
