@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import {CardList} from './components/card-list/card-list.component'
+import { SearchBox } from "./components/search-box/search-box.component";
 
 class App extends Component {
   constructor() {
@@ -21,15 +22,29 @@ class App extends Component {
           id: "A3"
         },
       ],
+      searchField : ""
     };
+  }
+
+  /**
+   * Arrow function is recommended as this component instance gets bind to the function automatically
+   * @param {*} e 
+   */
+  handleSearch = (e) =>{
+    this.setState({
+      searchField : e.target.value
+    })
   }
 
 
   render() {
-    console.log(CardList)
+
+    const filteredNames = this.state.names.filter(person => person.name.toLowerCase().includes(this.state.searchField))
     return (
       <div className="App">
-        <CardList names={this.state.names}> </CardList>
+        <h1 style= {{fontFamily : 'Dancing script', fontSize : '72px'}}>Persons Rolodex</h1>
+        <SearchBox handler = { this.handleSearch}/>
+        <CardList names={filteredNames}> </CardList>
         
       </div>
     );
