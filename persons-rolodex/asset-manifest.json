@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-js-start/persons-rolodex/static/css/main.221e5c3a.chunk.css",
+    "main.js": "/react-js-start/persons-rolodex/static/js/main.3a560117.chunk.js",
+    "main.js.map": "/react-js-start/persons-rolodex/static/js/main.3a560117.chunk.js.map",
+    "runtime-main.js": "/react-js-start/persons-rolodex/static/js/runtime-main.b5e678dd.js",
+    "runtime-main.js.map": "/react-js-start/persons-rolodex/static/js/runtime-main.b5e678dd.js.map",
+    "static/js/2.47ae780a.chunk.js": "/react-js-start/persons-rolodex/static/js/2.47ae780a.chunk.js",
+    "static/js/2.47ae780a.chunk.js.map": "/react-js-start/persons-rolodex/static/js/2.47ae780a.chunk.js.map",
+    "index.html": "/react-js-start/persons-rolodex/index.html",
+    "precache-manifest.4f1f7264f2f535bce77e9d25e3223986.js": "/react-js-start/persons-rolodex/precache-manifest.4f1f7264f2f535bce77e9d25e3223986.js",
+    "service-worker.js": "/react-js-start/persons-rolodex/service-worker.js",
+    "static/css/main.221e5c3a.chunk.css.map": "/react-js-start/persons-rolodex/static/css/main.221e5c3a.chunk.css.map",
+    "static/js/2.47ae780a.chunk.js.LICENSE.txt": "/react-js-start/persons-rolodex/static/js/2.47ae780a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-js-start/persons-rolodex/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5e678dd.js",
+    "static/js/2.47ae780a.chunk.js",
+    "static/css/main.221e5c3a.chunk.css",
+    "static/js/main.3a560117.chunk.js"
+  ]
+}
