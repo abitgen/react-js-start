@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abitgen.github.io/react-js-start/",
+  "homepage": "https://abitgen.github.io/react-js-start/persons-rolodex",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "yarn build",
-    "deploy" : "gh-pages -d build"
+    "ghdeploy-help" : "gh-pages --help",
+    "deploy":"gh-pages -d build -e persons-rolodex -f"
   },
   "eslintConfig": {
     "extends": "react-app"
